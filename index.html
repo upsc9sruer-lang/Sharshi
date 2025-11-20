@@ -1,1 +1,126 @@
 <!DOCTYPE html><html><head><link rel='stylesheet' href='styles.css'><title>Sharshi Science & Heritage</title></head><body><nav><a href='index.html'>Home</a><a href='about.html'>About</a><a href='services.html'>Services</a><a href='contact.html'>Contact</a></nav><div class='hero'><h1>Welcome to Sharshi Science & Heritage</h1><p>Tradition meets excellence.</p></div><footer>© 2025 Sharshi Science & Heritage</footer></body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Business of Science</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #1a0000, #4d0000);
+      color: #fff;
+    }
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 50px;
+      background: rgba(0, 0, 0, 0.5);
+      backdrop-filter: blur(6px);
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+    header h1 {
+      font-size: 28px;
+      font-weight: 700;
+    }
+    nav a {
+      margin-left: 20px;
+      text-decoration: none;
+      color: #ffcccc;
+      font-weight: 500;
+      transition: 0.3s;
+    }
+    nav a:hover {
+      color: #fff;
+    }
+    .hero {
+      text-align: center;
+      padding: 130px 20px;
+      background: url('https://images.unsplash.com/photo-1534751516642-a1af1ef26a56?auto=format&fit=crop&w=1600&q=80') center/cover;
+      position: relative;
+    }
+    .hero::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.55);
+    }
+    .hero-content {
+      position: relative;
+      z-index: 2;
+    }
+    .hero h2 {
+      font-size: 50px;
+      margin-bottom: 10px;
+      font-weight: 700;
+    }
+    .hero p {
+      font-size: 20px;
+      max-width: 650px;
+      margin: auto;
+    }
+    .btn {
+      margin-top: 25px;
+      padding: 15px 35px;
+      font-size: 18px;
+      border: none;
+      background: #990000;
+      color: #fff;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+    .btn:hover {
+      background: #cc0000;
+    }
+    .section {
+      padding: 80px 50px;
+      text-align: center;
+    }
+    .section h3 {
+      font-size: 34px;
+      margin-bottom: 20px;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 30px;
+    }
+    .card {
+      padding: 30px;
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 12px;
+      transition: 0.3s;
+    }
+    .card:hover {
+      background: rgba(255, 255, 255, 0.18);
+      transform: translateY(-5px);
+    }
+    footer {
+      padding: 30px;
+      text-align: center;
+      background: rgba(0, 0, 0, 0.5);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Business of Science</h1>
+    <nav>
+      <a href="#services">Focus Areas</a>
+      <a href="#research">Research</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-content">
+      <h2>Where Business Meets Innovation</h2>
+      <p>Empowering industries with data-driven scientific insights, advanced research, and strategic solutions.</p>
+      <button class="btn">Discover More</button>
+      
